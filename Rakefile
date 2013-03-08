@@ -2,11 +2,6 @@
 # -*- ruby -*-
 
 require 'rake/clean'
-begin
-  require 'rdoc/task'
-rescue LoadError => ex
-  # No rdoc task availble.
-end
 
 SRC_DIR      = 'src'
 PROB_DIR     = 'koans'
